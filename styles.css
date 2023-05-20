@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Montserrat:wght@300&display=swap');
+
+body{
+    padding: 0;
+    margin:0;
+    text-align: center;
+}
+
+.desc{
+ 
+    padding: 5px;
+    box-shadow: 0 -1px 4px rgba(22, 1, 1, 0.725) ;
+}
+
+.text1{
+    font-size: 25px;
+    font-family: 'Arvo', serif;
+}
+
+p{
+    color: grey;
+}
+
+.upload_box{
+    border-style: solid;
+    border-color: rgb(187, 187, 187);
+    border-width: 1.5px;
+    margin: 10px 8px 10px 8px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-radius: 8px;
+}
+
+.text2{
+    font-family: 'Arvo', serif;
+    
+}
+
+.select_image{
+  background-color: rgb(13,131,123);
+  font-size: larger;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #fff;
+  border-style: none;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+
+
+@media screen and (min-width: 764px) {
+   body{
+  padding: 50px 500px;
+   }
+  }
+
